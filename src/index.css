@@ -16,3 +16,8 @@ body {
 code {
   font-family: 'Space Grotesk', sans-serif;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
