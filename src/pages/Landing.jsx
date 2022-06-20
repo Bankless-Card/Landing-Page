@@ -10,12 +10,12 @@ const Landing = () => {
   return (
     <>
       <header>
-        <nav className="flex justify-between px-10 py-6">
+        <nav className="flex item-center justify-between px-10 py-6">
           <img src={Logo} alt="logo" className="w-[70px] h-[70px]" />
           <div>
-            <span className="font-medium text-3xl leading-[43px] mr-10">
+            {/* <span className="font-medium text-3xl leading-[43px] mr-10">
               Sign in
-            </span>
+            </span> */}
             <span className="font-medium text-3xl leading-[43px] ">
               Sign up
             </span>
@@ -58,7 +58,7 @@ const Landing = () => {
         </p>
       </section>
 
-      <section className="mt-[10rem] flex flex-col md:flex-row justify-between px-10">
+      <section className="mt-[10rem] flex flex-col md:flex-row justify-between px-[4rem]">
         <div className="relative">
           <img
             src={bc_container}
@@ -86,12 +86,17 @@ const Landing = () => {
         </div>
       </section>
 
-      <footer className="mt-[25rem] h-[192px]">
-        <div className="flex flex-row justify-center bg-[#4F4F4F]  ">
-          <span>
+      <footer className="mt-[25rem] w-full">
+        <div className="flex flex-col justify-center items-center gap-6  bg-[#4F4F4F]  h-[192px] w-[85%] m-auto rounded-tr-[50px] rounded-tl-[50px]">
+          <span className="font-normal text-base leading-[25.74px] ">
             Big ups to the BanklessDAO community for crafting the infrastructure
             and economy to make Bankless card possible.
           </span>
+          <div className="flex justify-center items-center gap-5">
+              <a href="https://google.com" target="_blank" rel="noreferrer" className="text-[#18B4C7]">Discord</a>
+              <a href="https://google.com" target="_blank" rel="noreferrer" className="text-[#18B4C7]">Github</a>
+              <a href="https://google.com" target="_blank" rel="noreferrer" className="text-[#18B4C7]">Twitter</a>
+          </div>
         </div>
       </footer>
     </>
