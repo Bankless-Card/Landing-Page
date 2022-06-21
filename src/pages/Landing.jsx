@@ -16,7 +16,7 @@ const Landing = () => {
             {/* <span className="font-medium text-3xl leading-[43px] mr-10">
               Sign in
             </span> */}
-            <a href="https://tally.so/r/wvGj9X" target="_blank" rel="noreferrer" className="font-medium text-2xl leading-[33px] md:text-3xl md:leading-[43px] border border-1 p-4">
+            <a href="https://tally.so/r/wvGj9X" target="_blank" rel="noreferrer" className="font-medium text-2xl leading-[33px] md:text-3xl md:leading-[43px] border border-1 p-2 md:p-4">
               Sign up
             </a>
           </div>
