@@ -10,15 +10,15 @@ const Landing = () => {
   return (
     <>
       <header>
-        <nav className="flex item-center justify-between px-10 py-6">
-          <img src={Logo} alt="logo" className=" w-[50px] h-[50px] md:w-[70px] md:h-[70px]" />
+        <nav className="flex items-center justify-between px-10 py-6">
+          <img src={Logo} alt="logo" className=" w-[60px] h-[60px] md:w-[80px] md:h-[80px]" />
           <div>
             {/* <span className="font-medium text-3xl leading-[43px] mr-10">
               Sign in
             </span> */}
-            <span className="font-medium text-2xl leading-[33px] md:text-3xl md:leading-[43px] ">
+            <a href="https://tally.so/r/wvGj9X" target="_blank" rel="noreferrer" className="font-medium text-2xl leading-[33px] md:text-3xl md:leading-[43px] border border-1 p-4">
               Sign up
-            </span>
+            </a>
           </div>
         </nav>
       </header>
@@ -33,7 +33,7 @@ const Landing = () => {
           partner DAOs, and other Web3 ecosystems.
         </p>
         <button className="p-2 bg-[#D02128] h-[3rem] w-[15rem] md:h-[3.563rem] md:w-[21.75rem] mt-12">
-          Sign up to get started
+          <a href="https://tally.so/r/wvGj9X" target="_blank" rel="noreferrer">Sign up to get started</a>
         </button>
       </section>
 
@@ -93,9 +93,9 @@ const Landing = () => {
             and economy to make Bankless card possible.
           </span>
           <div className="flex justify-center items-center gap-5">
-              <a href="https://google.com" target="_blank" rel="noreferrer" className="text-[#18B4C7]">Discord</a>
-              <a href="https://google.com" target="_blank" rel="noreferrer" className="text-[#18B4C7]">Github</a>
-              <a href="https://google.com" target="_blank" rel="noreferrer" className="text-[#18B4C7]">Twitter</a>
+              <a href="https://discord.gg/ZVhcxnA9" target="_blank" rel="noreferrer" className="text-[#18B4C7]">Discord</a>
+              <a href="https://twitter.com/BanklessCard" target="_blank" rel="noreferrer" className="text-[#18B4C7]">Github</a>
+              <a href="https://twitter.com/BanklessCard" target="_blank" rel="noreferrer" className="text-[#18B4C7]">Twitter</a>
           </div>
         </div>
       </footer>
