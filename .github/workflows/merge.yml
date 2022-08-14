@@ -25,7 +25,7 @@ jobs:
         with:
           cmd: build
       - name: Copy the CNAME and other build additions to the site
-        run: cp ./BuildAdditions/* ./build/
+        run: sudo cp ./BuildAdditions/* ./build/
       - name: Deploy the site
         uses: peaceiris/actions-gh-pages@v3
         with:
