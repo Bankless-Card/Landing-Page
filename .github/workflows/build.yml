@@ -3,7 +3,7 @@ name: 'Verify building works'
 on: pull_request
 
 jobs:
-  prod-deploy-site:
+  build-site:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
