@@ -21,6 +21,5 @@ jobs:
         uses: borales/actions-yarn@v3.0.0
         with:
           cmd: build
-      - uses: borales/actions-yarn@v3.0.0
       - name: Copy the CNAME and other build additions to the site
         run: cp ./BuildAdditions/* ./build/
