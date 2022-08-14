@@ -1,0 +1,26 @@
+name: 'Verify building works'
+
+on: pull_request
+
+jobs:
+  prod-deploy-site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: 'npm'
+      - name: yarn install
+        uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: install
+      - name: yarn build
+        uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: build
+      - uses: borales/actions-yarn@v3.0.0
+      - name: Copy the CNAME and other build additions to the site
+        run: cp ./BuildAdditions/* ./build/
