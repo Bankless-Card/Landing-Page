@@ -11,12 +11,21 @@ const Landing = () => {
     <>
       <header>
         <nav className="flex items-center justify-between px-10 py-6">
-          <img src={Logo} alt="logo" className=" w-[60px] h-[60px] md:w-[80px] md:h-[80px]" />
+          <img
+            src={Logo}
+            alt="logo"
+            className=" w-[60px] h-[60px] md:w-[80px] md:h-[80px]"
+          />
           <div>
             {/* <span className="font-medium text-3xl leading-[43px] mr-10">
               Sign in
             </span> */}
-            <a href="https://tally.so/r/wvGj9X" target="_blank" rel="noreferrer" className="font-medium text-2xl leading-[33px] md:text-3xl md:leading-[43px] border border-1 p-2 md:p-4">
+            <a
+              href="https://tally.so/r/wvGj9X"
+              target="_blank"
+              rel="noreferrer"
+              className="font-medium text-2xl leading-[33px] md:text-3xl md:leading-[43px] border border-1 p-2 md:p-4 hover:bg-white hover:text-[#011308] transition-all duration-300"
+            >
               Sign up
             </a>
           </div>
@@ -32,8 +41,10 @@ const Landing = () => {
           fiat spending with social and governance tokens from BanklessDAO,
           partner DAOs, and other Web3 ecosystems.
         </p>
-        <button className="p-2 bg-[#D02128] h-[3rem] w-[15rem] md:h-[3.563rem] md:w-[21.75rem] mt-12">
-          <a href="https://tally.so/r/wvGj9X" target="_blank" rel="noreferrer">Sign up to get started</a>
+        <button className="p-2 bg-[#D02128] h-[3rem] w-[15rem] md:h-[3.563rem] md:w-[21.75rem] mt-12 hover:bg-white hover:text-[#011308] transition-all duration-300">
+          <a href="https://tally.so/r/wvGj9X" target="_blank" rel="noreferrer">
+            Sign up to get started
+          </a>
         </button>
       </section>
 
@@ -59,7 +70,7 @@ const Landing = () => {
       </section>
 
       <section className="mt-[10rem] gap-[15rem] flex flex-col md:flex-row justify-between px-[2rem] md:px-[4rem]">
-        <div className="relative m-auto">
+        <div className="relative m-auto  flex flex-col md:flex-row items-center justify-center">
           <img
             src={bc_container}
             alt="bankless"
@@ -68,7 +79,7 @@ const Landing = () => {
           <img
             src={bc_container}
             alt="bankless"
-            className="rounded-[10px] absolute top-[6.5rem] left-[5.5rem] z-20 hidden md:block"
+            className="rounded-[10px] absolute top-[6.5rem] left-[5.5rem] z-20  md:block"
           />
         </div>
         <div>
@@ -93,9 +104,30 @@ const Landing = () => {
             and economy to make Bankless card possible.
           </span>
           <div className="flex justify-center items-center gap-5">
-              <a href="https://discord.gg/ZVhcxnA9" target="_blank" rel="noreferrer" className="text-[#18B4C7]">Discord</a>
-              <a href="https://twitter.com/BanklessCard" target="_blank" rel="noreferrer" className="text-[#18B4C7]">Github</a>
-              <a href="https://twitter.com/BanklessCard" target="_blank" rel="noreferrer" className="text-[#18B4C7]">Twitter</a>
+            <a
+              href="https://discord.gg/vACf5hRk5D"
+              target="_blank"
+              rel="noreferrer"
+              className="text-[#18B4C7] hover:underline"
+            >
+              Discord
+            </a>
+            <a
+              href="https://github.com/Bankless-Card"
+              target="_blank"
+              rel="noreferrer"
+              className="text-[#18B4C7] hover:underline"
+            >
+              Github
+            </a>
+            <a
+              href="https://twitter.com/BanklessCard"
+              target="_blank"
+              rel="noreferrer"
+              className="text-[#18B4C7]  hover:underline"
+            >
+              Twitter
+            </a>
           </div>
         </div>
       </footer>
