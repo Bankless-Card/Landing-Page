@@ -21,53 +21,98 @@ const Landing = () => {
               Sign in
             </span> */}
             <a
-              href="https://tally.so/r/wvGj9X"
+              href="https://tally.so/r/wvGj9X?source=landingpage"
               target="_blank"
-              rel="noreferrer"
-              className="font-medium text-2xl leading-[33px] md:text-3xl md:leading-[43px] border border-1 p-2 md:p-4 hover:bg-white hover:text-[#011308] transition-all duration-300"
+              className="font-medium text-xl leading-[33px] md:text-xl md:leading-[43px] p-2 md:p-4 bg-[#D02128] hover:bg-white hover:text-[#011308] transition-all duration-300"
             >
-              Sign up
+              Sign up for early access
             </a>
           </div>
         </nav>
       </header>
 
       <section className="w-full flex flex-col justify-center items-center">
-        <h1 className="font-bold text-[3rem] leading-[90px] md:text-[3.75rem] md:leading-[129.32px] text-center">
+        <h1 className="font-bold text-[2rem] md:text-[3rem] text-center">
           Bankless Card
         </h1>
-        <p className="font-normal text-2xl md:text-3xl leading-[33px] px-5 md:leading-[43.11px]  max-w-[59.5rem]">
-          Bankless Card is an “affinity” payments platform designed to reward
-          fiat spending with social and governance tokens from BanklessDAO,
-          partner DAOs, and other Web3 ecosystems.
-        </p>
-        <button className="p-2 bg-[#D02128] h-[3rem] w-[15rem] md:h-[3.563rem] md:w-[21.75rem] mt-12 hover:bg-white hover:text-[#011308] transition-all duration-300">
-          <a href="https://tally.so/r/wvGj9X" target="_blank" rel="noreferrer">
-            Sign up to get started
-          </a>
-        </button>
       </section>
 
-      <section className="mt-10 flex flex-col  md:flex-row">
-        <img src={left_card} alt="bankless card" className="" />
-        <img src={right_card} alt="bankless card" className="" />
+
+      <section className="mt-[1rem] gap-[1rem] flex flex-col md:flex-row justify-between px-[2rem] md:px-[4rem]">
+        <div className="text-center">
+          <h2 className="mt-[2rem] font-bold text-[1.5rem] md:text-[2.25rem] text-center">
+            The card for DAO contributors <br/>by BanklessDAO
+          </h2>
+          <p className="font-normal text-2xl md:text-3xl leading-[33px] px-5 md:leading-[43.11px]  max-w-[59.5rem]">
+            
+          </p>
+          <button className="p-2 bg-[#D02128] h-[3rem] w-[15rem] md:h-[3.563rem] md:w-[21.75rem] mt-12 hover:bg-white hover:text-[#011308] transition-all duration-300">
+            <a href="https://tally.so/r/wvGj9X?source=landingpage" target="_blank">
+              Sign up for early access
+            </a>
+          </button>
+        </div>
+        <div className="relative m-auto  flex flex-col md:flex-row items-center justify-center">
+          <img
+            src={left_card}
+            alt="bankless card"
+            className=""
+          />
+        </div>
       </section>
 
-      <section className="flex flex-col justify-center items-center mt-[7rem]">
-        <h1 className="font-bold text-[3rem] leading-[70px] text-center  md:text-[64px] md:leading-[91.96px]">
-          Bankless Card Mobile App
-        </h1>
-        <img
-          src={iphone}
-          alt="iphone"
-          className="mt-[4rem] w-[20rem] h-[28rem] md:w-[30.402rem] md:h-[44.291rem]"
-        />
-        <p className="font-normal  text-2xl md:text-[30px] leading-[33px] px-5 md:leading-[43.11px]  max-w-[59.5rem] mt-[6rem]">
-          Bankless Card is an “affinity” payments platform designed to reward
-          fiat spending with social and governance tokens from BanklessDAO,
-          partner DAOs, and other Web3 ecosystems.
-        </p>
-      </section>
+      <section className="mt-[1.5rem] gap-[15rem] flex flex-col md:flex-row justify-between px-[2rem] md:px-[4rem]">
+        <div className="relative m-auto  flex flex-col md:flex-row items-center justify-center">
+          <img
+            src={bc_container}
+            alt="bankless"
+            className="rounded-[10px]  z-10"
+          />
+          <img
+            src={bc_container}
+            alt="bankless"
+            className="rounded-[10px] absolute top-[6.5rem] left-[5.5rem] z-20  md:block"
+          />
+        </div>
+        <div>
+          <div className="flex flex-col md:flex-row justify-center items-center gap-8">
+            <img src={bolt} alt="bolt" />
+            <h2 className="font-bold text-[1.5rem] md:text-[2.25rem] max-w-[599px]  ">
+              Support your favourite DAOs
+            </h2>
+          </div>
+          <p className="font-normal text-[26px] leading-[37.36px]  max-w-[695px] mt-10">
+            A small percentage from every payment made with your card goes to your DAO's treasury in the form of stable coins, helping to fund their mission.
+          </p>
+        </div>
+      </section>      
+
+      <section className="mt-[10rem] gap-[15rem] flex flex-col md:flex-row justify-between px-[2rem] md:px-[4rem]">
+        <div>
+          <div className="flex flex-col md:flex-row justify-center items-center gap-8">
+            <img src={bolt} alt="bolt" />
+            <h2 className="font-bold text-[1.5rem] md:text-[2.25rem] max-w-[599px]  ">
+              Earn DAO tokens, increase token price
+            </h2>
+          </div>
+          <p className="font-normal text-[26px] leading-[37.36px]  max-w-[695px] mt-10">
+            Every purchase on your card earns you cash back in the form of your DAO’s tokens.  Since Bankless Card buys these tokens from a DEX, you increase your token price with every swipe.
+          </p>
+        </div>
+        <div className="relative m-auto  flex flex-col md:flex-row items-center justify-center">
+          <img
+            src={bc_container}
+            alt="bankless"
+            className="rounded-[10px]  z-10"
+          />
+          <img
+            src={bc_container}
+            alt="bankless"
+            className="rounded-[10px] absolute top-[6.5rem] left-[5.5rem] z-20  md:block"
+          />
+        </div>
+      </section>      
+
 
       <section className="mt-[10rem] gap-[15rem] flex flex-col md:flex-row justify-between px-[2rem] md:px-[4rem]">
         <div className="relative m-auto  flex flex-col md:flex-row items-center justify-center">
@@ -85,17 +130,16 @@ const Landing = () => {
         <div>
           <div className="flex flex-col md:flex-row justify-center items-center gap-8">
             <img src={bolt} alt="bolt" />
-            <h1 className="font-bold text-[56px] leading-[67.86px] max-w-[599px]  ">
-              Earn crypto back on every purchase
-            </h1>
+            <h2 className="font-bold text-[1.5rem] md:text-[2.25rem] max-w-[599px]  ">
+              Easily onboard new DAO contributors
+            </h2>
           </div>
           <p className="font-normal text-[26px] leading-[37.36px]  max-w-[695px] mt-10">
-            Bankless Card is an “affinity” payments platform designed to reward
-            fiat spending with social and governance tokens from BanklessDAO,
-            partner DAOs, and other Web3 ecosystems.
+            Bankless Card’s easy-to-use mobile app allows you to onboard your friends to your favourite DAO without worrying about wallets, DEX’s, or rug pulls.
           </p>
         </div>
-      </section>
+      </section>   
+
 
       <footer className="mt-[25rem] w-full">
         <div className="flex flex-col justify-center items-center gap-6  bg-[#4F4F4F]  h-[192px] w-full md:w-[85%] m-auto rounded-tr-[50px] rounded-tl-[50px] px-4">
