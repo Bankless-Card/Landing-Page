@@ -116,7 +116,7 @@ const Landing = () => {
         <div className="relative m-auto  flex flex-col md:flex-row items-center justify-center w-full">
           <img
             src={bc_container}
-            alt="bankless"
+            alt="bankless card"
             className="rounded-[10px]  z-10"
           />
           <img
