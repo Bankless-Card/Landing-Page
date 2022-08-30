@@ -21,7 +21,7 @@ const Landing = () => {
               rel="noreferrer"
               className="font-medium text-xl leading-[33px] md:text-xl md:leading-[43px] p-2 md:p-4 bg-[#D02128] rounded-[4px] hover:bg-white hover:text-[#011308] transition-all duration-300"
             >
-              Sign up 
+              Sign up
             </a>
           </div>
         </nav>
@@ -33,8 +33,8 @@ const Landing = () => {
         </h1>
       </section>
 
-      <section className="mt-[1rem] gap-[1rem] flex flex-col md:flex-row justify-center px-[2rem] md:px-[4rem] pb-4">
-        <div className="text-center flex flex-col items-center"> 
+      <section className=" gap-[1rem] flex flex-col md:flex-row justify-center px-[2rem] md:px-[4rem] pb-4">
+        <div className="text-center flex flex-col items-center">
           <h2 className="mt-[2rem] font-bold text-[1.5rem] md:text-[3rem]  lg:text-[3.5]">
             The card for DAO contributors <br />
             by BanklessDAO
@@ -50,18 +50,17 @@ const Landing = () => {
             </a>
           </button>
           <div className="relative m-auto  flex flex-col md:flex-row items-center justify-center">
-          <img src={left_card} alt="bankless card" className="" />
+            <img src={left_card} alt="bankless card" className="" />
+          </div>
         </div>
-        </div>
-       
       </section>
 
-      <section className="mt-[1.5rem] gap-[10rem] flex flex-col md:flex-row justify-between px-[2rem] md:px-[4rem] ">
-        <div className="relative m-auto  flex flex-col md:flex-row items-center justify-center w-full">
+      <section className="mt-[1.5rem]  flex flex-col gap-[10rem] md:flex-row  px-[2rem] md:px-[4rem]">
+        <div className="relative m-auto  flex flex-col md:flex-row items-center justify-center">
           <img
             src={bc_container}
             alt="bankless"
-            className="rounded-[10px]  z-10 w-full"
+            className="rounded-[10px]  z-10"
           />
           <img
             src={bc_container}
@@ -72,11 +71,11 @@ const Landing = () => {
         <div>
           <div className="flex flex-col md:flex-row justify-center items-center gap-8">
             <img src={bolt} alt="bolt" />
-            <h2 className="font-bold text-[1.5rem] md:text-[2.25rem] max-w-[499px]  ">
+            <h2 className="font-bold text-[1.5rem] md:text-[2.25rem] max-w-[599px]  ">
               Support your favourite DAOs
             </h2>
           </div>
-          <p className="font-normal text-[26px] leading-[37.36px]  max-w-[595px] mt-10">
+          <p className="font-normal text-[26px] leading-[37.36px]  max-w-[695px] mt-10">
             A small percentage from every payment made with your card goes to
             your DAO's treasury in the form of stable coins, helping to fund
             their mission.
@@ -84,21 +83,22 @@ const Landing = () => {
         </div>
       </section>
 
-      <section className="mt-[10rem] gap-[10rem] flex flex-col md:flex-row justify-between px-[2rem] md:px-[4rem]">
+      <section className="mt-[15rem]  flex flex-col md:flex-row  px-[2rem] md:px-[4rem]">
         <div>
           <div className="flex flex-col md:flex-row justify-center items-center gap-8">
             <img src={bolt} alt="bolt" />
-            <h2 className="font-bold text-[1.5rem] md:text-[2.25rem] max-w-[499px]  ">
+            <h2 className="font-bold text-[1.5rem] md:text-[2.25rem] max-w-[599px]  ">
               Earn DAO tokens, increase token price
             </h2>
           </div>
-          <p className="font-normal text-[26px] leading-[37.36px]  max-w-[595px] mt-10">
+          <p className="font-normal text-[26px] leading-[37.36px]  max-w-[695px] mt-10">
             Every purchase on your card earns you cash back in the form of your
             DAO’s tokens. Since Bankless Card buys these tokens from a DEX, you
             increase your token price with every swipe.
           </p>
         </div>
-        <div className="relative m-auto  flex flex-col md:flex-row items-center justify-center w-full">
+
+        <div className="relative m-auto  flex flex-col md:flex-row items-center justify-center ">
           <img
             src={bc_container}
             alt="bankless"
@@ -112,8 +112,8 @@ const Landing = () => {
         </div>
       </section>
 
-      <section className="mt-[10rem] gap-[10rem] flex flex-col md:flex-row justify-between px-[2rem] md:px-[4rem] w-full">
-        <div className="relative m-auto  flex flex-col md:flex-row items-center justify-center w-full">
+      <section className="mt-[15rem]  flex flex-col gap-[10rem] md:flex-row  px-[2rem] md:px-[4rem] w-full">
+        <div className="relative m-auto  flex flex-col md:flex-row items-center justify-center">
           <img
             src={bc_container}
             alt="bankless card"
@@ -128,11 +128,11 @@ const Landing = () => {
         <div>
           <div className="flex flex-col md:flex-row justify-center items-center gap-8">
             <img src={bolt} alt="bolt" />
-            <h2 className="font-bold text-[1.5rem] md:text-[2.25rem] max-w-[499px]  ">
+            <h2 className="font-bold text-[1.5rem] md:text-[2.25rem] max-w-[599px]  ">
               Easily onboard new DAO contributors
             </h2>
           </div>
-          <p className="font-normal text-[26px] leading-[37.36px]  max-w-[595px] mt-10">
+          <p className="font-normal text-[26px] leading-[37.36px]  max-w-[695px] mt-10">
             Bankless Card’s easy-to-use mobile app allows you to onboard your
             friends to your favourite DAO without worrying about wallets, DEX’s,
             or rug pulls.
