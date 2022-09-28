@@ -21,3 +21,22 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.benefit svg.dropcap {
+  width: 65px;
+  height: 65px;
+}
+
+.benefit svg.dropcapFist {
+  fill:  #4794BC;
+}
+
+.benefit svg.dropcapCoin {
+  fill:  #C6B166;
+}
+
+.benefit svg.dropcapPeople {
+  fill:  #833F5C;
+  width: 170px;
+  height: auto;
+}
