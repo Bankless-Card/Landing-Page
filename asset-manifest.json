@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.6fb40e8b.css",
-    "main.js": "/static/js/main.5afd0e95.js",
+    "main.css": "/static/css/main.6ab96c65.css",
+    "main.js": "/static/js/main.828928b0.js",
     "static/js/787.15974ca8.chunk.js": "/static/js/787.15974ca8.chunk.js",
-    "static/media/iPhone.svg": "/static/media/iPhone.fd3ec40ed4fcd614bfb39f5d14602292.svg",
     "static/media/left_card.svg": "/static/media/left_card.6f5dafe3768d65ba106ca4b2e9f436d4.svg",
-    "static/media/right_card.svg": "/static/media/right_card.e607d08a27213bf5af8b61e01a23603a.svg",
+    "static/media/phonecollage.png": "/static/media/phonecollage.d3923cfea4b87a2724a2.png",
+    "static/media/iphone_mockups.png": "/static/media/iphone_mockups.e11ed7e4d51bed7a126f.png",
     "static/media/bc_containter.PNG": "/static/media/bc_containter.d74481e6cc1089570a4a.PNG",
     "static/media/logo.svg": "/static/media/logo.bc694af7c77de6102efe9e3b57fd61a6.svg",
-    "static/media/bolt.svg": "/static/media/bolt.b181030a31a7d045268452caf10beb91.svg",
     "index.html": "/index.html",
-    "main.6fb40e8b.css.map": "/static/css/main.6fb40e8b.css.map",
-    "main.5afd0e95.js.map": "/static/js/main.5afd0e95.js.map",
+    "main.6ab96c65.css.map": "/static/css/main.6ab96c65.css.map",
+    "main.828928b0.js.map": "/static/js/main.828928b0.js.map",
     "787.15974ca8.chunk.js.map": "/static/js/787.15974ca8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fb40e8b.css",
-    "static/js/main.5afd0e95.js"
+    "static/css/main.6ab96c65.css",
+    "static/js/main.828928b0.js"
   ]
 }
