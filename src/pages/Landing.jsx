@@ -44,7 +44,7 @@ const Landing = () => {
             
           </p>
           <button className="p-2 bg-[#D02128] h-[3rem] w-[15rem] md:h-[3.563rem] md:w-[21.75rem] mt-12 hover:bg-white hover:text-[#011308] transition-all duration-300">
-            <a href="https://tally.so/r/wvGj9X?source=landingpage" target="_blank">
+            <a href="https://tally.so/r/wvGj9X?source=landingpage" target="_blank" rel="noreferrer">
               Sign up for early access
             </a>
           </button>
