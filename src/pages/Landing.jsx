@@ -17,9 +17,7 @@ const Landing = () => {
           />
           <div className="">
             <a
-              href="https://tally.so/r/wvGj9X?source=landingpage"
-              target="_blank"
-              rel="noreferrer"
+              href="https://signup.banklesscard.xyz/prelaunch"
               className="font-medium text-xl leading-[33px] md:text-xl md:leading-[43px] p-2 md:p-4 bg-[#D02128] rounded-[4px] hover:bg-white hover:text-[#011308] transition-all duration-300"
             >
               Sign up
@@ -44,7 +42,7 @@ const Landing = () => {
             
           </p>
           <button className="p-2 bg-[#D02128] h-[3rem] w-[15rem] md:h-[3.563rem] md:w-[21.75rem] mt-12 hover:bg-white hover:text-[#011308] transition-all duration-300">
-            <a href="https://tally.so/r/wvGj9X?source=landingpage" target="_blank" rel="noreferrer">
+            <a href="https://signup.banklesscard.xyz/prelaunch">
               Sign up for early access
             </a>
           </button>
