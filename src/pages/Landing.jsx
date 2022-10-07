@@ -7,7 +7,7 @@ import phonecollage from "../assests/images/phonecollage.png";
 
 const Landing = () => {
   return (
-    <main className="w-full">
+    <main className="w-full content-center">
       <header>
         <nav className="flex items-center justify-between px-10 py-6">
           <img
@@ -17,9 +17,7 @@ const Landing = () => {
           />
           <div className="">
             <a
-              href="https://tally.so/r/wvGj9X?source=landingpage"
-              target="_blank"
-              rel="noreferrer"
+              href="https://signup.banklesscard.xyz/prelaunch"
               className="font-medium text-xl leading-[33px] md:text-xl md:leading-[43px] p-2 md:p-4 bg-[#D02128] rounded-[4px] hover:bg-white hover:text-[#011308] transition-all duration-300"
             >
               Sign up
@@ -28,14 +26,14 @@ const Landing = () => {
         </nav>
       </header>
 
-      <section className="w-full flex flex-col justify-center items-center">
+      <section className="w-full max-w-screen-xl mx-auto flex flex-col justify-center items-center">
         <h1 className="font-bold text-[2rem] md:text-[3rem] text-center">
           Bankless Card
         </h1>
       </section>
 
 
-      <section className="mt-[1rem] gap-[1rem] flex flex-col md:flex-row justify-between px-[2rem] md:px-[4rem]">
+      <section className="w-full max-w-screen-xl mx-auto mt-[1rem] gap-[1rem] flex flex-col md:flex-row justify-between px-[2rem] md:px-[4rem]">
         <div className="text-center">
           <h2 className="mt-[2rem] font-bold text-[1.5rem] md:text-[2.25rem] text-center">
             The card for DAO contributors <br/>by BanklessDAO
@@ -44,7 +42,7 @@ const Landing = () => {
             
           </p>
           <button className="p-2 bg-[#D02128] h-[3rem] w-[15rem] md:h-[3.563rem] md:w-[21.75rem] mt-12 hover:bg-white hover:text-[#011308] transition-all duration-300">
-            <a href="https://tally.so/r/wvGj9X?source=landingpage" target="_blank" rel="noreferrer">
+            <a href="https://signup.banklesscard.xyz/prelaunch">
               Sign up for early access
             </a>
           </button>
@@ -58,7 +56,7 @@ const Landing = () => {
         </div>
       </section>
 
-      <section className="benefit mt-[1.5rem]  flex flex-col gap-[10rem] md:flex-row  px-[2rem] md:px-[4rem]">
+      <section className="benefit w-full max-w-screen-xl mx-auto mt-[3rem]  flex flex-col gap-[10rem] md:flex-row  px-[2rem] md:px-[4rem]">
         <div className="relative m-auto  flex flex-col md:flex-row items-center justify-center">
           <img
             src={bc_container}
@@ -86,7 +84,7 @@ const Landing = () => {
         </div>
       </section>
 
-      <section className="benefit mt-[15rem]  flex flex-col md:flex-row  px-[2rem] md:px-[4rem]">
+      <section className="benefit w-full max-w-screen-xl mx-auto mt-[15rem]  flex flex-col md:flex-row  px-[2rem] md:px-[4rem]">
         <div className="pr-4">
           <div className="flex flex-col md:flex-row justify-center items-center gap-8">
             <svg className="dropcap dropcapCoin" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"   viewBox="0 0 387.469 387.469" ><g><path d="M326.447,104.012c0.854-3.551,1.291-7.168,1.291-10.834V81.59c0-23.154-17.287-44.325-48.677-59.612   C249.96,7.805,211.49,0,170.738,0C129.986,0,91.517,7.805,62.415,21.978C31.025,37.265,13.738,58.436,13.738,81.59v11.588   c0,22.833,16.82,43.733,47.387,58.968c-0.848,3.534-1.395,7.938-1.395,10.782v2.114c-29.688,15.173-45.992,35.786-45.992,58.27    V234.9c0,15.613,7.871,30.321,22.616,42.936c-1.995,5.332-3.035,10.833-3.035,16.455v11.588c0,23.154,17.287,44.325,48.677,59.612   c29.102,14.173,67.571,21.978,108.323,21.978c40.752,0,79.222-7.805,108.323-21.978c31.39-15.287,48.677-36.458,48.677-59.612   v-11.588c0-15.61-7.864-30.316-22.603-42.929c1.993-5.333,3.021-10.839,3.021-16.462v-2.114    c29.688-15.173,45.992-35.786,45.992-58.271v-11.588C373.73,140.121,356.948,119.243,326.447,104.012z M35.679,71.784   c4.547-11.561,16.932-22.786,35.493-31.825C97.6,27.088,132.96,20,170.738,20c37.778,0,73.139,7.088,99.566,19.959    c18.562,9.039,30.946,20.265,35.493,31.825c-16.064,27.942-71.876,48.316-135.06,48.316S51.742,99.727,35.679,71.784z    M35.679,213.507c3.697-9.399,12.601-18.569,25.769-26.53c5.073,18.229,21.303,34.656,46.96,47.151   c29.102,14.173,67.571,21.978,108.323,21.978c3.983,0,7.938-0.097,11.871-0.244c-17.791,3.826-37.438,5.962-57.863,5.962    C107.555,261.823,51.742,241.449,35.679,213.507z M325.379,284.485c-16.064,27.942-71.876,48.316-135.06,48.316   c-54.888,0-104.183-15.383-126.718-37.738c28.959,13.815,66.928,21.427,107.137,21.427c40.752,0,79.222-7.805,108.323-21.978    c15.078-7.344,26.892-16.047,35.109-25.674C319.473,273.861,323.275,279.135,325.379,284.485z M216.73,201.439    c-55.166,0-104.709-15.532-127.088-38.071c24.167,7.414,52.041,11.4,81.096,11.4c40.752,0,79.222-7.805,108.323-21.977    c17.622-8.582,30.798-19.019,38.967-30.619c17.591,8.885,29.359,19.757,33.762,30.951    C335.727,181.064,279.914,201.439,216.73,201.439z"/></g></svg>
@@ -110,7 +108,7 @@ const Landing = () => {
         </div>
       </section>
 
-      <section className="benefit mt-[15rem]  flex flex-col gap-[2rem] md:flex-row  px-[2rem] md:px-[4rem] w-full">
+      <section className="benefit w-full max-w-screen-xl mx-auto mt-[15rem]  flex flex-col gap-[2rem] md:flex-row  px-[2rem] md:px-[4rem] w-full">
         <div className="relative rounded-[10px] m-auto  flex flex-col md:flex-row items-center justify-center">
           <img
             src={phone}
@@ -137,7 +135,7 @@ const Landing = () => {
         <div className="flex flex-col justify-center items-center gap-6  bg-[#4F4F4F]  h-[192px] max-w-full md:w-[85%] mx-auto rounded-tr-[50px] rounded-tl-[50px] px-4">
           <span className="font-normal text-sm leading-[17px] md:text-base md:leading-[25.74px] ">
             Big ups to the BanklessDAO community for crafting the infrastructure
-            and economy to make Bankless card possible.
+            and economy to make Bankless Card possible.
           </span>
           <div className="flex justify-center items-center gap-5">
             <a
