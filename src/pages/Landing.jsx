@@ -139,7 +139,7 @@ const Landing = () => {
           </span>
           <div className="flex justify-center items-center gap-5">
             <a
-              href="https://discord.gg/vACf5hRk5D"
+              href="https://discord.gg/bankless"
               target="_blank"
               rel="noreferrer"
               className="text-[#18B4C7] hover:underline"
